@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'Analytics'
   s.dependency 'Firebase/Core'
-  s.dependency 'FirebaseAnalytics','~> 6.1'
+  s.dependency 'FirebaseAnalytics'
 
   s.subspec 'Core' do |core|
     #For users who only want the core Firebase package
